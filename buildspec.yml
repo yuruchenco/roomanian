@@ -11,10 +11,10 @@ phases:
       
       #2019/12/01 masuda add START
       # Install dependencies needed for running tests
-      - pip install -r requirements.txt
+      #- pip install -r requirements.txt
       # Migrations
-      - python manage.py makemigrations # 追記
-      - python manage.py migrate # 追記
+      #- python manage.py makemigrations # 追記
+      #- python manage.py migrate # 追記
       #2019/12/01 masuda add END
 
   pre_build:
